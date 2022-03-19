@@ -8,11 +8,13 @@ const regValidators: ValidatorConfig = {};
 
 function Required(target: any, propName: string) {
   regValidators[target.constructor.name] = {
+    ...regValidators[target.constructor.name],
     [propName]: ["required"],
   };
 }
 function PosNo(target: any, propName: string) {
   regValidators[target.constructor.name] = {
+    ...regValidators[target.constructor.name],
     [propName]: ["positive"],
   };
 }
