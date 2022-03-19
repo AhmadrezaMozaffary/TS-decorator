@@ -1,0 +1,15 @@
+{
+  "name": "Simple form validation",
+  "version": "1.0.0",
+  "description": "Using TS decorator",
+  "main": "app.ts",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc"
+  },
+  "author": "Ahmadreza Mozaffary",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
